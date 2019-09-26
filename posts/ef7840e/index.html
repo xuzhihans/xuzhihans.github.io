@@ -63,9 +63,8 @@
 <meta property="og:description" content="1. 前言1.1 Hexo是什么？ Hexo is a fast, simple &amp;amp; powerful blog framework powered by Node.js 按照上面Hexo官方的说法，Hexo是一个用Node.js语言写的，功能强大并且简便，能够快速安装部署的博客框架。简单来说，Hexo就是一个让你自己搭建博客的工具，这个工具确实非常流行，很多技术人员都使用这个博客系统搭建">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/images/pasted-1.png">
-<meta property="og:image" content="en-resource://database/400:0">
-<meta property="og:image" content="http://yoursite.com/images/pasted-2.png">
-<meta property="og:updated_time" content="2019-09-26T05:09:44.735Z">
+<meta property="og:image" content="http://yoursite.com/images/pasted-0.png">
+<meta property="og:updated_time" content="2019-09-26T05:15:03.138Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOS7 安装 Hexo博客系统">
 <meta name="twitter:description" content="1. 前言1.1 Hexo是什么？ Hexo is a fast, simple &amp;amp; powerful blog framework powered by Node.js 按照上面Hexo官方的说法，Hexo是一个用Node.js语言写的，功能强大并且简便，能够快速安装部署的博客框架。简单来说，Hexo就是一个让你自己搭建博客的工具，这个工具确实非常流行，很多技术人员都使用这个博客系统搭建">
@@ -238,7 +237,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-09-26 13:09:44" itemprop="dateModified" datetime="2019-09-26T13:09:44+08:00">2019-09-26</time>
+                <time title="修改时间：2019-09-26 13:15:03" itemprop="dateModified" datetime="2019-09-26T13:15:03+08:00">2019-09-26</time>
               </span>
             
           
@@ -336,7 +335,8 @@
 <h3 id="4-2-2-书写文章内容"><a href="#4-2-2-书写文章内容" class="headerlink" title="4.2.2 书写文章内容"></a>4.2.2 书写文章内容</h3><p>用编辑器打开hexo为我们刚创建的文本文件，然后用Markdown语法书写文章内容，内容此处略，参见简书上的一篇文章：<a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">Markdown基本语法</a></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@hexo blog]<span class="comment"># vim source/_posts/Markdown基本语法.md</span></span><br></pre></td></tr></table></figure>
 
-<p>书写完内容后保存，就可以在网页端查看到文章内容了：<br><img src="en-resource://database/400:0" alt="a530575e755a2707a7645d40223fe9d7.png"><br><img src="/images/pasted-2.png" alt="upload successful"></p>
+<p>书写完内容后保存，就可以在网页端查看到文章内容了：</p>
+<p><img src="/images/pasted-0.png" alt="upload successful"></p>
 <h1 id="5-将本地博客系统发布到网上"><a href="#5-将本地博客系统发布到网上" class="headerlink" title="5. 将本地博客系统发布到网上"></a>5. 将本地博客系统发布到网上</h1><p>通过上面的步骤，我们已经在本地建立好了博客系统，并且也知道了如何利用博客系统写文章，并在本地发布、访问。<br>接下来的问题是，我们写的博客文章需要随时能查看，并且也有可能需要让更多的人来看到内容，以达到知识分享的目的，所以我们就需要将我们本地的博客系统“搬”到网上。<br>这里我们将结合Github Pages功能，将我们本地的博客系统“托管”到Github上，从而实现我们随时查看和分享博客内容的目的。</p>
 <h2 id="5-1-hexo博客系统与Gihub-Pages结合的基本原理"><a href="#5-1-hexo博客系统与Gihub-Pages结合的基本原理" class="headerlink" title="5.1 hexo博客系统与Gihub Pages结合的基本原理"></a>5.1 hexo博客系统与Gihub Pages结合的基本原理</h2><h3 id="5-1-1-什么是Github-Pages？"><a href="#5-1-1-什么是Github-Pages？" class="headerlink" title="5.1.1 什么是Github Pages？"></a>5.1.1 什么是Github Pages？</h3><p>Github Pages是Github官方提供的一个静态页面托管虚拟主机。说白了就是，它免费提供我们一个空间，我们把自己写好的html代码上传到这个空间中，Github Pages就能够作为服务器，把html内容提供给访问服务器的人（具体说是浏览器）。<br>所以，Github Pages主要做了这么几件事情：</p>
 <ul>
